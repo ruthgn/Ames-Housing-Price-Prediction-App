@@ -8,4 +8,4 @@ Kaggle notebook outlining the model building process is available [here](https:/
 
 Files (Pending)
 -----
-* The Ames Housing [dataset](https://www.kaggle.com/jessemostipak/hotel-booking-demand) (hotel_bookings.csv).
+* The Ames Housing [dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data) (train.csv and test.csv).
