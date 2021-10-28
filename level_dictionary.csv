@@ -1,0 +1,315 @@
+col,level_label,level_meaning
+MSSubClass,20,"1-Story (1946 & newer, all styles)"
+MSSubClass,30,1-Story (1945 & older)
+MSSubClass,40,"1-Story (finished attic, all ages)"
+MSSubClass,45,"1-1/2 Story (unfinished, all ages)"
+MSSubClass,50,"1-1/2 Story (finished, all ages)"
+MSSubClass,60,2-Story (1946 & newer)
+MSSubClass,70,2-Story (1945 & older)
+MSSubClass,75,2-1/2 Story (all ages)
+MSSubClass,80,Split or Multi-level
+MSSubClass,85,Split foyer
+MSSubClass,90,Duplex (all styles/ages)
+MSSubClass,120,1-Story PUD (1946 & newer)
+MSSubClass,150,1-1/2 Story PUD (all ages)
+MSSubClass,160,2-Story PUD (1946 & newer)
+MSSubClass,180,Multi-level PUD
+MSSubClass,190,2 fam conversion (all styles/age)
+MSZoning,C (all),Commercial (all)
+MSZoning,FV,Floating Village Residential
+MSZoning,RH,Residential High Density
+MSZoning,RL,Residential Low Density
+MSZoning,RM,Residential Medium Density
+Street,Grvl,Gravel
+Street,Pave,Paved
+Alley,Grvl,Gravel
+Alley,Pave,Paved
+Alley,NA,No alley access
+LotShape,Reg,Regular
+LotShape,IR1,Slightly irregular
+LotShape,IR2,Moderately Irregular
+LotShape,IR3,Irregular
+LandContour,Lvl,Near Flat/Level
+LandContour,Bnk,Banked
+LandContour,HLS,Hillside
+LandContour,Low,Depression
+Utilities,AllPub,"All public Utilities (E,G,W,& S)"
+Utilities,NoSewr,"Electricity, Gas, and Water"
+Utilities,NoSeWa,Electricity and Gas Only
+LotConfig,Inside,Inside lot
+LotConfig,Corner,Corner lot
+LotConfig,CulDSac,Cul-de-sac
+LotConfig,FR2,Frontage on 2 sides of property
+LotConfig,FR3,Frontage on 3 sides of property
+LandSlope,Gtl,Gentle slope
+LandSlope,Mod,Moderate Slope
+LandSlope,Sev,Severe Slope
+Neighborhood,Blmngtn,Bloomington Heights
+Neighborhood,Blueste,Bluestem
+Neighborhood,BrDale,Briardale
+Neighborhood,BrkSide,Brookside
+Neighborhood,ClearCr,Clear Creek
+Neighborhood,CollgCr,College Creek
+Neighborhood,Crawfor,Crawford
+Neighborhood,Edwards,Edwards
+Neighborhood,Gilbert,Gilbert
+Neighborhood,IDOTRR,Iowa DOT and Rail Road
+Neighborhood,MeadowV,Meadow Village
+Neighborhood,Mitchel,Mitchell
+Neighborhood,Names,North Ames
+Neighborhood,NoRidge,Northridge
+Neighborhood,NPkVill,Northpark Villa
+Neighborhood,NridgHt,Northridge Heights
+Neighborhood,NWAmes,Northwest Ames
+Neighborhood,OldTown,Old Town
+Neighborhood,SWISU,South & West of Iowa State Univ
+Neighborhood,Sawyer,Sawyer
+Neighborhood,SawyerW,Sawyer West
+Neighborhood,Somerst,Somerset
+Neighborhood,StoneBr,Stone Brook
+Neighborhood,Timber,Timberland
+Neighborhood,Veenker,Veenker
+Condition1,Artery,Adjacent to arterial street
+Condition1,Feedr,Adjacent to feeder street
+Condition1,Norm,Normal
+Condition1,RRNn,Within 200' of North-South Railroad
+Condition1,RRAn,Adjacent to North-South Railroad
+Condition1,PosN,Near positive off-site feature
+Condition1,PosA,Adjacent to postive off-site feature
+Condition1,RRNe,Within 200' of East-West Railroad
+Condition1,RRAe,Adjacent to East-West Railroad
+Condition2,Artery,Adjacent to arterial street
+Condition2,Feedr,Adjacent to feeder street
+Condition2,Norm,Normal
+Condition2,RRNn,Within 200' of North-South Railroad
+Condition2,RRAn,Adjacent to North-South Railroad
+Condition2,PosN,Near positive off-site feature
+Condition2,PosA,Adjacent to postive off-site feature
+Condition2,RRNe,Within 200' of East-West Railroad
+Condition2,RRAe,Adjacent to East-West Railroad
+BldgType,1Fam,Single-family Detached
+BldgType,2FmCon,Two-family Conversion
+BldgType,Duplx,Duplex
+BldgType,TwnhsE,Townhouse End Unit
+BldgType,TwnhsI,Townhouse Inside Unit
+HouseStyle,1Story,One story
+HouseStyle,1.5Fin,One & 1/2 story: 2nd level finished
+HouseStyle,1.5Unf,One & 1/2 story: 2nd level unfinished
+HouseStyle,2Story,Two story
+HouseStyle,2.5Fin,Two & 1/2 story: 2nd level finished
+HouseStyle,2.5Unf,Two & 1/2 story: 2nd level unfinished
+HouseStyle,SFoyer,Split Foyer
+HouseStyle,SLvl,Split Level
+OverallQual,9,Excellent
+OverallQual,8,Very Good
+OverallQual,7,Good
+OverallQual,6,Above Average
+OverallQual,5,Average
+OverallQual,4,Below Average
+OverallQual,3,Fair
+OverallQual,2,Poor
+OverallQual,1,Very Poor
+OverallCond,9,Excellent
+OverallCond,8,Very Good
+OverallCond,7,Good
+OverallCond,6,Above Average
+OverallCond,5,Average
+OverallCond,4,Below Average
+OverallCond,3,Fair
+OverallCond,2,Poor
+OverallCond,1,Very Poor
+RoofStyle,Flat,Flat
+RoofStyle,Gable,Gable
+RoofStyle,Gambrel,Gabrel (Barn)
+RoofStyle,Hip,Hip
+RoofStyle,Mansard,Mansard
+RoofStyle,Shed,Shed
+RoofMatl,ClyTile,Clay or Tile
+RoofMatl,CompShg,Standard (Composite) Shingle
+RoofMatl,Membran,Membrane
+RoofMatl,Metal,Metal
+RoofMatl,Roll,Roll
+RoofMatl,Tar&Grv,Gravel & Tar
+RoofMatl,WdShake,Wood Shakes
+RoofMatl,WdShngl,Wood Shingles
+Exterior1st,AsbShng,Asbestos Shingles
+Exterior1st,AsphShn,Asphalt Shingles
+Exterior1st,BrkComm,Brick Common
+Exterior1st,BrkFace,Brick Face
+Exterior1st,CBlock,Cinder Block
+Exterior1st,CemntBd,Cement Board
+Exterior1st,HdBoard,Hard Board
+Exterior1st,ImStucc,Imitation Stucco
+Exterior1st,MetalSd,Metal Siding
+Exterior1st,Other,Other
+Exterior1st,Plywood,Plywood
+Exterior1st,PreCast,PreCast
+Exterior1st,Stone,Stone
+Exterior1st,Stucco,Stucco
+Exterior1st,VinylSd,Vinyl Siding
+Exterior1st,Wd Sdng,Wood Siding
+Exterior1st,WdShing,Wood Shingles
+Exterior2nd,AsbShng,Asbestos Shingles
+Exterior2nd,AsphShn,Asphalt Shingles
+Exterior2nd,BrkComm,Brick Common
+Exterior2nd,BrkFace,Brick Face
+Exterior2nd,CBlock,Cinder Block
+Exterior2nd,CemntBd,Cement Board
+Exterior2nd,HdBoard,Hard Board
+Exterior2nd,ImStucc,Imitation Stucco
+Exterior2nd,MetalSd,Metal Siding
+Exterior2nd,Other,Other
+Exterior2nd,Plywood,Plywood
+Exterior2nd,PreCast,PreCast
+Exterior2nd,Stone,Stone
+Exterior2nd,Stucco,Stucco
+Exterior2nd,VinylSd,Vinyl Siding
+Exterior2nd,Wd Sdng,Wood Siding
+Exterior2nd,WdShing,Wood Shingles
+MasVnrType,BrkCmn,Brick Common
+MasVnrType,BrkFace,Brick Face
+MasVnrType,CBlock,Cinder Block
+MasVnrType,None,None
+MasVnrType,Stone,Stone
+ExterQual,Ex,Excellent
+ExterQual,Gd,Good
+ExterQual,TA,Average/Typical
+ExterQual,Fa,Fair
+ExterQual,Po,Poor
+ExterCond,Ex,Excellent
+ExterCond,Gd,Good
+ExterCond,TA,Average/Typical
+ExterCond,Fa,Fair
+ExterCond,Po,Poor
+Foundation,BrkTil,Brick & Tile
+Foundation,CBlock,Cinder Block
+Foundation,PConc,Poured Contrete
+Foundation,Slab,Slab
+Foundation,Stone,Stone
+Foundation,Wood,Wood
+BsmtQual,Ex,Excellent (100+ inches)
+BsmtQual,Gd,Good (90-99 inches)
+BsmtQual,TA,Typical (80-89 inches)
+BsmtQual,Fa,Fair (70-79 inches)
+BsmtQual,Po,Poor (<70 inches
+BsmtQual,NA,No Basement
+BsmtCond,Ex,Excellent
+BsmtCond,Gd,Good
+BsmtCond,TA,Typical
+BsmtCond,Fa,Fair
+BsmtCond,Po,Poor
+BsmtCond,NA,No Basement
+BsmtExposure,Gd,Good Exposure
+BsmtExposure,Av,Average Exposure
+BsmtExposure,Mn,Mimimum Exposure
+BsmtExposure,No,No Exposure
+BsmtExposure,NA,No Basement
+BsmtFinType1,GLQ,Good Living Quarters
+BsmtFinType1,ALQ,Average Living Quarters
+BsmtFinType1,BLQ,Below Average Living Quarters
+BsmtFinType1,Rec,Average Rec Room
+BsmtFinType1,LwQ,Low Quality
+BsmtFinType1,Unf,Unfinshed
+BsmtFinType1,NA,No Basement
+BsmtFinType2,GLQ,Good Living Quarters
+BsmtFinType2,ALQ,Average Living Quarters
+BsmtFinType2,BLQ,Below Average Living Quarters
+BsmtFinType2,Rec,Average Rec Room
+BsmtFinType2,LwQ,Low Quality
+BsmtFinType2,Unf,Unfinshed
+BsmtFinType2,NA,No Basement
+Heating,Floor,Floor Furnace
+Heating,GasA,Gas forced warm air furnace
+Heating,GasW,Gas hot water or steam heat
+Heating,Grav,Gravity furnace
+Heating,OthW,Hot water or steam heat other than gas
+Heating,Wall,Wall furnace
+HeatingQC,Ex,Excellent
+HeatingQC,Gd,Good
+HeatingQC,TA,Average/Typical
+HeatingQC,Fa,Fair
+HeatingQC,Po,Poor
+CentralAir,N,No
+CentralAir,Y,Yes
+Electrical,SBrkr,Standard Circuit Breakers & Romex
+Electrical,FuseA,">60 AMP Fuse Box, Romex"
+Electrical,FuseF,"60 AMP Fuse Box, mostly Romex"
+Electrical,FuseP,"60 AMP Fuse Box, knob & tube"
+Electrical,Mix,Mixed
+KitchenQual,Ex,Excellent
+KitchenQual,Gd,Good
+KitchenQual,TA,Typical/Average
+KitchenQual,Fa,Fair
+KitchenQual,Po,Poor
+Functional,Typ,Typical Functionality
+Functional,Min1,Minor Deductions 1
+Functional,Min2,Minor Deductions 2
+Functional,Mod,Moderate Deductions
+Functional,Maj1,Major Deductions 1
+Functional,Maj2,Major Deductions 2
+Functional,Sev,Severely Damaged
+Functional,Sal,Salvage only
+FireplaceQu,Ex,Excellent
+FireplaceQu,Gd,Good
+FireplaceQu,TA,Average
+FireplaceQu,Fa,Fair
+FireplaceQu,Po,Poor
+FireplaceQu,NA,No Fireplace
+GarageType,2Types,More than one type of garage
+GarageType,Attchd,Attached to home
+GarageType,Basment,Basement Garage
+GarageType,BuiltIn,Built-In
+GarageType,CarPort,Car Port
+GarageType,Detchd,Detached from home
+GarageType,NA,No Garage
+GarageFinish,Fin,Finished
+GarageFinish,RFn,Rough Finished
+GarageFinish,Unf,Unfinished
+GarageFinish,NA,No Garage
+GarageQual,Ex,Excellent
+GarageQual,Gd,Good
+GarageQual,TA,Typical/Average
+GarageQual,Fa,Fair
+GarageQual,Po,Poor
+GarageQual,NA,No Garage
+GarageCond,Ex,Excellent
+GarageCond,Gd,Good
+GarageCond,TA,Typical/Average
+GarageCond,Fa,Fair
+GarageCond,Po,Poor
+GarageCond,NA,No Garage
+PavedDrive,Y,Paved 
+PavedDrive,P,Partial Pavement
+PavedDrive,N,Dirt/Gravel
+PoolQC,Ex,Excellent
+PoolQC,Gd,Good
+PoolQC,TA,Average/Typical
+PoolQC,Fa,Fair
+PoolQC,NA,No Pool
+Fence,GdPrv,Good Privacy
+Fence,MnPrv,Minimum Privacy
+Fence,GdWo,Good Wood
+Fence,MnWw,Minimum Wood/Wire
+Fence,NA,No Fence
+MiscFeature,Elev,Elevator
+MiscFeature,Gar2,2nd Garage (if not described in garage section)
+MiscFeature,Othr,Other
+MiscFeature,Shed,Shed (over 100 SF)
+MiscFeature,TenC,Tennis Court
+MiscFeature,NA,None
+SaleType,WD,Warranty Deed - Conventional
+SaleType,CWD,Warranty Deed - Cash
+SaleType,VWD,Warranty Deed - VA Loan
+SaleType,New,Home just constructed and sold
+SaleType,COD,Court Officer Deed/Estate
+SaleType,Con,"Contract-15% down pay, reg terms"
+SaleType,ConLw,Contract-Low down pay & int%
+SaleType,ConLI,Contract-Low int%
+SaleType,ConLD,Contract-Low down pay
+SaleType,Oth,Other
+SaleCondition,Normal,Normal Sale
+SaleCondition,Abnorml,Abnormal Sale
+SaleCondition,AdjLand,Adjoining Land Purchase
+SaleCondition,Alloca,Allocation
+SaleCondition,Family,Sale between family members
+SaleCondition,Partial,Home was not completed
