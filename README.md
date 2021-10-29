@@ -1,6 +1,6 @@
 # Ames-Housing-Price-Prediction
 
-This repository contains data and code used to build a machine learning web app to predict house prices in Ames, Iowa. 
+This repository contains all the data and code used to build a machine learning web app to predict house prices in Ames, Iowa. 
 
 Click [here](link pending) to access the app.
 
