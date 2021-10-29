@@ -9,7 +9,7 @@ The prediction model running on the web app ranks in the top 8% of Kaggle's [Hou
 Kaggle notebook outlining the model building process is available [here](https://www.kaggle.com/ruthgn/house-prices-top-8-featengineering-xgb-optuna/notebook).
 
 
-Files (Pending)
+Files
 -----
 * The Ames Housing [dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data) (train.csv and test.csv).
 * Python object serialization of the trained prediction model running on the app (ames_house_xgb_model.pkl).
