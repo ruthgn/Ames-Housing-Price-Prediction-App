@@ -67,7 +67,7 @@ else:
         MSSubClass = st.sidebar.selectbox("Building class — `MSSubClass`", ('1-Story (1946 & newer, all styles)', '1-Story (1945 & older)', '1-Story (finished attic, all ages)', '1-1/2 Story (unfinished, all ages)', '1-1/2 Story (finished, all ages)', '2-Story (1946 & newer)', '2-Story (1945 & older)', '2-1/2 Story (all ages)', 'Split or Multi-level', 'Split foyer', 'Duplex (all styles/ages)', '1-Story PUD (1946 & newer)', '1-1/2 Story PUD (all ages)', '2-Story PUD (1946 & newer)', 'Multi-level PUD', '2 fam conversion (all styles/age)'))
         MSZoning = st.sidebar.selectbox("Zoning classification — `MSZoning`", ('Residential Low Density', 'Residential Medium Density', 'Residential High Density''Commercial (all)', 'Floating Village Residential'))
         LotFrontage = st.sidebar.slider("Linear feet of street connected to property", round(X.LotFrontage.min()), round(X.LotFrontage.max()), round(X.LotFrontage.median()))
-        LotArea = st.sidebar.slider("Lot size in square feet", X.LotArea.min(), X.LotArea.max(), round(X.LotArea.median()))
+        LotArea = st.sidebar.slider("Lot size in square feet", round(X.LotArea.min()), round(X.LotArea.max()), round(X.LotArea.median()))
         Street = st.sidebar.selectbox("Type of road access", ('Gravel', 'Paved'))
         Alley = st.sidebar.selectbox("Type of alley access", ('No alley access', 'Gravel', 'Paved'))
         LotShape = st.sidebar.selectbox("General shape of property", ('Regular', 'Slightly irregular', 'Moderately Irregular', 'Irregular'))
