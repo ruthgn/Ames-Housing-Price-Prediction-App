@@ -6,7 +6,6 @@ import pickle
 import shap
 
 from pandas.api.types import CategoricalDtype
-from pandas.io.formats.style import Styler
 from category_encoders import MEstimateEncoder
 from sklearn.feature_selection import mutual_info_regression
 from xgboost import XGBRegressor
