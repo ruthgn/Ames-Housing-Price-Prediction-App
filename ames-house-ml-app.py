@@ -83,7 +83,7 @@ else:
         OverallQual = st.sidebar.slider("Overall material & finish quality of the house (9=Excellent, 5=Average, 1=Very Poor)", round(X.OverallQual.min()), round(X.OverallQual.max()), round(X.OverallQual.median()))
         OverallCond = st.sidebar.slider("Overall house condition rating (9=Excellent, 5=Average, 1=Very Poor)", round(X.OverallCond.min()), round(X.OverallCond.max()), round(X.OverallCond.median()))
         YearBuilt = st.sidebar.slider("Original construction date", round(X.YearBuilt.min()), round(X.YearBuilt.max()), round(X.YearBuilt.median()))
-        YearRemodAdd = st.sidebar.slider("Remodel date", X.YearRemodAdd.min(), X.YearRemodAdd.max(), round(X.YearRemodAdd.median()))
+        YearRemodAdd = st.sidebar.slider("Remodel date", round(X.YearRemodAdd.min()), round(X.YearRemodAdd.max()), round(X.YearRemodAdd.median()))
         RoofStyle = st.sidebar.selectbox("Type of roof", ('Flat', 'Gable', 'Gabrel (Barn)', 'Hip', 'Mansard', 'Shed'))
         RoofMatl = st.sidebar.selectbox("Roof material", ('Clay or Tile', 'Standard (Composite) Shingle', 'Membrane', 'Metal', 'Roll', 'Gravel & Tar', 'Wood Shakes', 'Wood Shingles'))
         Exterior1st = st.sidebar.selectbox("Exterior covering on house", ('Asbestos Shingles', 'Asphalt Shingles', 'Brick Common', 'Brick Face', 'Cinder Block', 'Cement Board', 'Hard Board', 'Imitation Stucco', 'Metal Siding', 'Other', 'Plywood', 'PreCast', 'Stone', 'Stucco', 'Vinyl Siding', 'Wood Siding', 'Wood Shingles'))
