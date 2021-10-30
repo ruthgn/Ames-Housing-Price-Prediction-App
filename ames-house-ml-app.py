@@ -14,7 +14,7 @@ from sklearn.model_selection import KFold
 st.write("""
 # Ames House Price Prediction App
 """)
-st.caption("[by Ruth G. N.](https://www.linkedin.com/in/ruthgn/)")
+st.caption("by [Ruth G. N.](https://www.linkedin.com/in/ruthgn/)")
 
 st.write("""
          
