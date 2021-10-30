@@ -11,10 +11,13 @@ from sklearn.feature_selection import mutual_info_regression
 from xgboost import XGBRegressor
 from sklearn.model_selection import KFold
 
-
 st.write("""
 # Ames House Price Prediction App
+""")
+st.caption("[by Ruth G. N.](https://www.linkedin.com/in/ruthgn/)")
 
+st.write("""
+         
 This app predicts house price in Ames, Iowa—based on user-specified input.
 
 Visit the project [notebook](https://www.kaggle.com/ruthgn/house-prices-top-8-featengineering-xgb-optuna) to learn about the model-building process or check out the complete project [repository](https://github.com/ruthgn/Ames-Housing-Price-Prediction) on GitHub. 
