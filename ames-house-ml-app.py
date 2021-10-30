@@ -25,7 +25,7 @@ Visit the project [notebook](https://www.kaggle.com/ruthgn/house-prices-top-8-fe
 """)
 
 st.info("""
-The prediction model running on the app ranks in the top 8% of Kaggle's [House Price Prediction Competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview) leaderboard (as of 10/27/2021).
+The prediction model running on the app ranks in the top 8% of Kaggle's [House Price Prediction Competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview) leaderboard (as of 10/29/2021).
 """)
 
 st.write('---')
