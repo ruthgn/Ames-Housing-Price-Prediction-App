@@ -11,21 +11,25 @@ from sklearn.feature_selection import mutual_info_regression
 from xgboost import XGBRegressor
 from sklearn.model_selection import KFold
 
+
 st.write("""
 # Ames House Price Prediction App
-""")
-st.caption("by [Ruth G. N.](https://www.linkedin.com/in/ruthgn/)")
 
-st.write("""
-         
 This app predicts house price in Ames, Iowa—based on user-specified input.
 
-Visit the project [notebook](https://www.kaggle.com/ruthgn/house-prices-top-8-featengineering-xgb-optuna) to learn about the model-building process or check out the complete [project repository](https://github.com/ruthgn/Ames-Housing-Price-Prediction) on GitHub. 
-
 """)
 
+st.caption("by [Ruth G. N.](https://www.linkedin.com/in/ruthgn/)")
+
+"""
+[![Star](https://img.shields.io/github/stars/ruthgn/Ames-Housing-Price-Prediction-App.svg?logo=github&style=social)](https://gitHub.com/ruthgn/Ames-Housing-Price-Prediction-App/stargazers)
+&nbsp[![Follow](https://img.shields.io/twitter/follow/RuthInData?style=social)](https://www.twitter.com/RuthInData)
+"""
+
 st.info("""
-The prediction model running on the app ranks in the top 8% of Kaggle's [House Price Prediction Competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview) leaderboard (as of 10/29/2021).
+The prediction model running on the app ranks in the top 8% of Kaggle's [House Price Prediction Competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview) leaderboard (as of 10/27/2021).
+Visit the [project notebook](https://www.kaggle.com/ruthgn/house-prices-top-8-featengineering-xgb-optuna) to learn about the model-building process.
+
 """)
 
 st.write('---')
