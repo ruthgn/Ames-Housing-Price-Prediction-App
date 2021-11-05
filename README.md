@@ -2,7 +2,7 @@
 
 This repository contains all the data and code used to build a machine learning web app to predict house prices in Ames, Iowa. 
 
-Click [here](https://share.streamlit.io/ruthgn/ames-housing-price-prediction/main/ames-house-ml-app.py) to access the app.
+Access the app → https://share.streamlit.io/ruthgn/ames-housing-price-prediction/main/ames-house-ml-app.py
 
 Kaggle notebook outlining the model building process is available [here](https://www.kaggle.com/ruthgn/house-prices-top-8-featengineering-xgb-optuna/notebook).
 
