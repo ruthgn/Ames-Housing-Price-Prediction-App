@@ -4,9 +4,7 @@ This repository contains all the data and code used to build a machine learning 
 
 Access the app → https://share.streamlit.io/ruthgn/ames-housing-price-prediction/main/ames-house-ml-app.py
 
-Kaggle notebook outlining the model building process is available [here](https://www.kaggle.com/ruthgn/house-prices-top-8-featengineering-xgb-optuna/notebook).
-
-The prediction model running on the web app ranks in the top 8% of Kaggle's [House Price Prediction Competition leaderboard](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview) and top 1% of [Housing Prices Competition for Kaggle Learn Users leaderboard](https://www.kaggle.com/c/home-data-for-ml-course/overview) (as of 10/29/2021).
+The prediction model running on the web app ranks in the top 8% of Kaggle's [House Price Prediction Competition leaderboard](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview) and top 1% of [Housing Prices Competition for Kaggle Learn Users leaderboard](https://www.kaggle.com/c/home-data-for-ml-course/overview) (as of 10/29/2021). Kaggle notebook outlining the model building process is available [here](https://www.kaggle.com/ruthgn/house-prices-top-8-featengineering-xgb-optuna/notebook).
 
 
 Files
