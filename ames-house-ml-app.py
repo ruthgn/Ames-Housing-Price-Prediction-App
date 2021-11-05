@@ -12,6 +12,18 @@ from xgboost import XGBRegressor
 from sklearn.model_selection import KFold
 
 
+HOUSE_EMOJI_URL = "https://img.charactermap.one/google/android-11/512px/1f3e0.png"
+
+
+# Set page title and favicon.
+st.set_page_config(
+    page_title="House Price Prediction App", page_icon=HOUSE_EMOJI_URL,
+)
+
+## Main Panel
+
+st.image(HOUSE_EMOJI_URL, width=80)
+
 st.write("""
 # Ames House Price Prediction App
 
@@ -22,8 +34,8 @@ This app predicts house price in Ames, Iowa—based on user-specified input.
 st.caption("by [Ruth G. N.](https://www.linkedin.com/in/ruthgn/)")
 
 """
-[![Star](https://img.shields.io/github/stars/ruthgn/Ames-Housing-Price-Prediction-App.svg?logo=github&style=social)](https://gitHub.com/ruthgn/Ames-Housing-Price-Prediction-App/stargazers)
-&nbsp[![Follow](https://img.shields.io/twitter/follow/RuthInData?style=social)](https://www.twitter.com/RuthInData)
+[![Follow](https://img.shields.io/twitter/follow/RuthInData?style=social)](https://www.twitter.com/RuthInData)
+&nbsp[![Star](https://img.shields.io/github/stars/ruthgn/Ames-Housing-Price-Prediction-App.svg?logo=github&style=social)](https://gitHub.com/ruthgn/Ames-Housing-Price-Prediction-App/stargazers)
 """
 
 st.info("""
@@ -40,7 +52,7 @@ st.write('---')
 ### Header for user input section
 st.sidebar.header('Specify House Variables:')
 
-## Sidebar note
+### Sidebar note
 st.sidebar.markdown("""
 For more information on each variable's interpretation and parameters, visit the [data dictionary](https://github.com/ruthgn/Ames-Housing-Price-Prediction/blob/main/data_description.txt).
 
@@ -544,7 +556,7 @@ prediction = np.exp(load_model.predict(X_input))
 
 
 
-# Main Panel
+## Main Panel
 
 st.header('Predicted House Price')
 
