@@ -35,7 +35,7 @@ st.caption("by [Ruth G. N.](https://www.linkedin.com/in/ruthgn/)")
 
 """
 [![Follow](https://img.shields.io/twitter/follow/RuthInData?style=social)](https://www.twitter.com/RuthInData)
-&nbsp[![Star](https://img.shields.io/github/stars/ruthgn/Ames-Housing-Price-Prediction-App.svg?logo=github&style=social)](https://gitHub.com/ruthgn/Ames-Housing-Price-Prediction-App/stargazers)
+&nbsp[![Fork](https://img.shields.io/github/forks/ruthgn/Ames-Housing-Price-Prediction-App.svg?logo=github&style=social)](https://github.com/ruthgn/Ames-Housing-Price-Prediction-App)
 """
 
 st.info("""
