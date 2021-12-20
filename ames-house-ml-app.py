@@ -603,6 +603,6 @@ st.write('---')
 
 st.caption("""
 
-Data obtained from the [Ames Housing dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data) by Dean De Cock.
+Ran into a bug or saw something on the app that needs to be improved? Submit a [Github issue](https://github.com/ruthgn/AutomatEDA/issues) or [fork the repository](https://github.com/ruthgn/AutomatEDA) to create a pull request.
 
 """)
