@@ -603,6 +603,6 @@ st.write('---')
 
 st.caption("""
 
-Ran into a bug or saw something on the app that needs to be improved? Submit a [Github issue](https://github.com/ruthgn/AutomatEDA/issues) or [fork the repository](https://github.com/ruthgn/AutomatEDA) to create a pull request.
+Ran into a bug or saw something on the app that needs to be improved? Submit a [Github issue](https://github.com/ruthgn/Ames-Housing-Price-Prediction-App/issues) or [fork the repository](https://github.com/ruthgn/Ames-Housing-Price-Prediction-App) to create a pull request.
 
 """)
